@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="sign.css">
+    <link rel="icon" href="favicon.ico">
+     
+</head>
+<body>
+    <audio src="click.mp3" autoplay="autoplay"></audio>
+    <div class="mainDiv">
+        <h1 class="Textwelcome"> WELCOME</h1>
+        <form id="form" action="#">
+            <div class = "inputBox">
+            <input type="text" name ="" id="email" class = "Email" placeholder="Your email:" onkeydown="validation()">
+            <span id="text"></span>
+        </div>
+        </form>
+        <form id="form1" action="#">
+            <div class = "inputBox1">
+            <input type="password" name ="" id="password" class = "Password" placeholder="Your password:" onkeydown="CheckPassword()">
+            <span id="text1"></span>
+        </div>
+        </form>
+        <button class = "ButtonLogin" onclick="sound()" ><a href="main.html"  class = "ButtonText">LOGIN</a></button>
+        <button class = "ButtonLogin1" onclick="audio.play();"><a href = "main.html" class = "ButtonText">Go to Home</a></button>
+        <a  href="resetpassword.html" class="forget">You forgot your password?</a>
+        <br>
+        <br>
+        <a  href="newaccount.html" class="newaccount">Don't have an account? Sign Up</a>
+        <script src="js/sign.js">
+        
+        </script>
+    </div>
+</body>
+</html>
